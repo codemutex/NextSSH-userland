@@ -1,6 +1,6 @@
 name: Feature request
 description: 提出新功能的需求。
-title: "[Feature]: "
+title: "[Feature] "
 labels: ["enhancement"]
 body:
   - type: checkboxes

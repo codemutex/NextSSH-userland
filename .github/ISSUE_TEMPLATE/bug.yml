@@ -1,0 +1,78 @@
+name: Bug
+description: 反馈软件问题。
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        此类型 Issues 用于处理信息整理完善的，即刻可以调试的问题。若无法复现问题或不确定如何填写，请先到 [Discussions 发帖](https://github.com/codemutex/NextSSH-userland/discussions)。
+  - type: checkboxes
+    id: pre-check
+    attributes:
+      label: 预先检查
+      description: 信息不清的 Issues 可能会被 Close，待重新编辑后 Reopen。
+      options:
+        - label: 请确认您遇到的是 NextSSH 软件的问题。网站故障、安装问题、无法确定的问题请到 [Discussions 发帖](https://github.com/codemutex/NextSSH-userland/discussions)。
+          required: true
+        # - label: 请确认您已经阅读了FAQ与已知问题，没有找到解决方案。
+        #   required: true
+        - label: 请确认您已经在本仓库搜索了相关关键词，没有找到解决方呢。
+          required: true
+        - label: 请确认您可以协助处理调查此问题时的技术请求。
+          required: true
+  - type: Bug 类型
+    id: bug-type
+    attributes:
+      options:
+        - NextSSH 本地问题（如意外崩溃、无法保存主机等」
+        - NextSSH 与主机交互问题（如终端乱码、数据监看故障）
+        - 授权问题（如无法登陆等）
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: 错误现象 & 复现该问题的步骤
+    validations:
+      required: true
+  - type: textarea
+    id: local-info
+    attributes:
+      label: 您当前运行 NextSSH 软件的环境
+      value: |
+        - 操作系统及版本（Windows、macOS 或 Linux）：
+        - 您是否处于内网中：
+        - 账号登陆/Lite激活状态：
+    validations:
+      required: true
+  - type: textarea
+    id: host-info
+    attributes:
+      label: 若此问题与您的主机相关，请提供主机的相关信息
+      value: |
+        - 架构：
+        - 操作系统（请具体到发行版版本号）：
+        - 连接方式（密码、私钥……）：
+        - 与问题相关的主机的软件的版本与报错（可选）：
+    validations:
+      required: false
+  - type: textarea
+    id: host-reproduce
+    attributes:
+      label: 若此问题与您的主机相关，其是否在其他主机上再次出现
+    validations:
+      required: false
+  - type: textarea
+    id: client-reproduce
+    attributes:
+      label: 使用其他电脑运行 NextSSH 软件/SSH cli，此问题是否再次出现
+    validations:
+      required: false
+  - type: textarea
+    id: log
+    attributes:
+      label: 发生错误时的日志
+    validations:
+      required: false
