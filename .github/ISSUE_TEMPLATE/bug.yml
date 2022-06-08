@@ -49,6 +49,12 @@ body:
     validations:
       required: true
   - type: textarea
+    id: client-reproduce
+    attributes:
+      label: 使用其他电脑运行 NextSSH 软件/SSH cli，此问题是否再次出现
+    validations:
+      required: false
+  - type: textarea
     id: host-info
     attributes:
       label: 若此问题与您的主机相关，请提供主机的相关信息
@@ -63,12 +69,6 @@ body:
     id: host-reproduce
     attributes:
       label: 若此问题与您的主机相关，其是否在其他主机上再次出现
-    validations:
-      required: false
-  - type: textarea
-    id: client-reproduce
-    attributes:
-      label: 使用其他电脑运行 NextSSH 软件/SSH cli，此问题是否再次出现
     validations:
       required: false
   - type: textarea
