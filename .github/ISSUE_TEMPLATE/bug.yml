@@ -21,15 +21,15 @@ body:
           required: true
         - label: 请确认您可以协助处理调查此问题时的技术请求。
           required: true
-  - type: checkboxes
+  - type: dropdown
     id: bug-type
     attributes:
       label: Bug 类型
       options:
-        - label: NextSSH 本地问题（如意外崩溃、无法保存主机等」
-        - label: NextSSH 与主机交互问题（如终端乱码、数据监看故障）
-        - label: 授权问题（如无法登陆等）
-        - label: 其他
+        - NextSSH 本地问题（如意外崩溃、无法保存主机等」
+        - NextSSH 与主机交互问题（如终端乱码、数据监看故障）
+        - 授权问题（如无法登陆等）
+        - 其他
     validations:
       required: true
   - type: textarea
