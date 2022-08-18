@@ -11,13 +11,13 @@ body:
     id: pre-check
     attributes:
       label: 预先检查
-      description: 信息不清的 Issues 可能会被 Close，待重新编辑后 Reopen。
+      description: 请完成以下全部检查清单。信息不清的 Issues 可能会被 Close，待重新编辑后 Reopen。
       options:
         - label: 请确认您遇到的是 NextSSH 软件的问题。网站故障、安装问题、无法确定的问题请到 [Discussions 发帖](https://github.com/codemutex/NextSSH-userland/discussions)。
           required: true
         - label: 请确认您已经阅读了[FAQ与已知问题](https://codemutex-wiki.vercel.app/nextssh/FAQ.html)，没有找到解决方案。
           required: true
-        - label: 请确认您已经在本仓库搜索了相关关键词，没有找到解决方呢。
+        - label: 请确认您已经在本仓库搜索了相关关键词，没有找到解决方。
           required: true
         - label: 请确认您可以协助处理调查此问题时的技术请求。
           required: true
