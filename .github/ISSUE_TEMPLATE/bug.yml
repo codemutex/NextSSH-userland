@@ -17,7 +17,7 @@ body:
           required: true
         - label: 请确认您已经阅读了[FAQ与已知问题](https://codemutex-wiki.vercel.app/nextssh/FAQ.html)，没有找到解决方案。
           required: true
-        - label: 请确认您已经在本仓库搜索了相关关键词，没有找到解决方。
+        - label: 请确认您已经在本仓库搜索了相关关键词，没有找到解决方案。
           required: true
         - label: 请确认您可以协助处理调查此问题时的技术请求。
           required: true
