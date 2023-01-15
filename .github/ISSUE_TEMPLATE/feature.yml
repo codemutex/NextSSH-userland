@@ -1,29 +1,30 @@
 name: Feature request
-description: 提出新功能的需求。
+description: 提出新的功能。
 title: "[Feature] "
 labels: ["enhancement"]
 body:
-  - type: checkboxes
-    id: pre-check
+  - type: markdown
     attributes:
-      label: 预先检查
-      # description: You may select more than one.
-      options:
-        - label: 此需求描述的是 SSH 客户端的功能，不是主机 Shell 或其他软件的功能。[无法确定……](https://github.com/codemutex/NextSSH-userland/discussions)
-          required: true
+      value: |
+        收到提交后不会做确认回复，在调查和排期期间 Issues 将保持开启。
+        
+        新功能提交后也可能会进一步询问具体细节，或预期的实现。
+
   - type: textarea
     id: content
     attributes:
-      label: 请大致描述需求
+      label: 描述预期的功能
     validations:
       required: true
+
   - type: textarea
     id: similar-function
     attributes:
-      label: 您是否在其他SSH客户端软件上使用过这个功能
+      label: 在其他软件上是否存在类似的功能
       description: 可选，请提供连接和描述
     validations:
       required: false
+
   - type: textarea
     id: related-documentation
     attributes:
