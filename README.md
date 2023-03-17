@@ -1,11 +1,7 @@
 # NextSSH Userland
 
-- 报告 NextSSH 软件的问题 -> [提交 Issues](https://github.com/codemutex/NextSSH-userland/issues)
-- 提出新功能需求 -> [提交 Issues](https://github.com/codemutex/NextSSH-userland/issues)
-- 使用问题 -> [发布 Discussions](https://github.com/codemutex/NextSSH-userland/discussions)
-    - 关于购买、激活……
-    - 关于安装、配置……
-- 网站运行问题 -> [发布 Discussions](https://github.com/codemutex/NextSSH-userland/discussions)
-    - 页面 500、404 错误……
-    - 页面错别字、显示不全、适配错误……
-- 无法确认是什么问题 / 无法完成 Issues 表单 -> [发布 Discussions](https://github.com/codemutex/NextSSH-userland/discussions)
+反馈渠道已经变更到：https://codemutex.com/support
+
+请阅读页面上的说明，并使用邮箱反馈。
+
+本仓库原有 issues 和 discussions 中尚未 close 或未完成的项目也被记录在[上述链接](https://codemutex.com/support)中，如有遗漏欢迎补充。
